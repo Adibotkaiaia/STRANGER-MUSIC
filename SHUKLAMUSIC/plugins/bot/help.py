@@ -20,7 +20,8 @@ from SHUKLAMUSIC.utils import help_pannel
 from SHUKLAMUSIC.utils.database import get_lang
 from SHUKLAMUSIC.utils.decorators.language import LanguageStart, languageCB
 from SHUKLAMUSIC.utils.inline.help import help_back_markup, private_help_panel
-from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
+#from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
+from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT, SHASHANK_IMG
 from strings import get_string, helpers
 from SHUKLAMUSIC.utils.stuffs.buttons import BUTTONS
 from SHUKLAMUSIC.utils.stuffs.helper import Helper
