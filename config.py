@@ -110,7 +110,19 @@ SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
 # Add this line
-SHASHANK_IMG = getenv("SHASHANK_IMG", "https://telegra.ph/file/your_default_image.jpg")
+#SHASHANK_IMG = getenv("SHASHANK_IMG", "https://telegra.ph/file/your_default_image.jpg")
+SHASHANK_IMG = [
+    "https://graph.org/file/f76fd86d1936d45a63c64.jpg",
+    "https://graph.org/file/69ba894371860cd22d92e.jpg",
+    "https://graph.org/file/67fde88d8c3aa8327d363.jpg",
+    "https://graph.org/file/3a400f1f32fc381913061.jpg",
+    "https://graph.org/file/a0893f3a1e6777f6de821.jpg",
+    "https://graph.org/file/5a285fc0124657c7b7a0b.jpg",
+    "https://graph.org/file/25e215c4602b241b66829.jpg",
+    "https://graph.org/file/a13e9733afdad69720d67.jpg",
+    "https://graph.org/file/692e89f8fe20554e7a139.jpg",
+    "https://graph.org/file/db277a7810a3f65d92f22.jpg",
+]
 
 # Helper function
 def time_to_seconds(time: str) -> int:
@@ -126,3 +138,4 @@ if SUPPORT_CHANNEL and not re.match(r"(?:http|https)://", SUPPORT_CHANNEL):
 
 if SUPPORT_CHAT and not re.match(r"(?:http|https)://", SUPPORT_CHAT):
     raise SystemExit("[ERROR] - Your SUPPORT_CHAT url is invalid. It must start with https://")
+    
